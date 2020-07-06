@@ -1567,7 +1567,7 @@ class SolrWebService extends XmlWebService {
 		foreach ($galleys as $galley) {
 			if ($galley->getFileId()) {
 				$locale = $galley->getLocale();
-				$galleyUrl = $router->url($request, $journal->getPath(), 'article', 'download', array(intval($article->getBestArticleId()), intval($galley->getBestGalleyId())));
+				$galleyUrl = $router->url($request, $journal->getPath(), 'article', 'download', array($article->getBestArticleId(), intval($galley->getBestGalleyId())));
 
 				//TODO: Remove next line before finalizing
 				//This is only necessary when testing from a VM with port mappings for port 80. BaseUrl has port 8000, but if the server makes the connection it should use port 80
