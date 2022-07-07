@@ -1,3 +1,9 @@
+### Attention
+
+This plugin is now maintained by PKP at https://github.com/pkp/lucene
+
+### Content
+
 -   [Welcome to the OJS Lucene/Solr
 Plug-In!](#welcome-to-the-ojs-lucenesolr-plug-in)
 - [Demo websites](#demonstrations)
