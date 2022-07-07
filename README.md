@@ -1,3 +1,9 @@
+### Attention
+
+This plugin is now maintained by PKP at https://github.com/pkp/lucene
+
+---
+
 This version of the Solr/Lucene plugin (master branch) has been tested with OJS 3.1.2
 
 Contents
